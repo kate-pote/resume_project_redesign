@@ -1,0 +1,76 @@
+@import "_variables";
+
+//base styles
+
+body {
+  background: $color-white;
+  font-family: $font-barlow;
+  font-size: $font-size-normal;
+  color: $color-black;
+}
+.container{
+  position: relative;
+  max-width: 960px;
+}
+
+h1 {
+  font-family: $font-abel;
+  font-size: $font-size-huge;
+  color: $color-black;
+
+}
+
+h2 {
+  font-family: $font-barlow;
+  font-size: $font-size-medium;
+  color: $color-black;
+  letter-spacing: 12px;
+  background-color: #ccc;
+}
+
+
+h3, h4{
+  font-family: $font-barlow;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: $font-size-medium;
+  color: $color-black;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: $font-size-normal;
+  color: $color-black;
+  line-height: 25px;
+}
+
+
+p{
+  line-height: 27px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 15px;
+  li{
+    margin-bottom: 6px;
+
+  }
+}
+
+/*keyframes*/
+@keyframes slideIn {
+  0% {
+    background-color: transparent;
+    right: 100%;
+  }
+}
+
+
+
+
+
+
